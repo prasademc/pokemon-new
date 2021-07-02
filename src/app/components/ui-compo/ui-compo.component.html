@@ -1,0 +1,9 @@
+<div class="cotainer">
+  <nz-card *ngFor="let pokemon of pokemons" nzHoverable style="width:240px">
+      <nz-card-meta nzTitle="{{ pokemon.name }}" nzDescription="www.instagram.com"></nz-card-meta>
+      <span class="image">
+        <img alt="example" src="{{ pokemon.image }}" />
+      </span>
+      <p>{{ pokemon.description }}</p>
+  </nz-card>
+</div>
